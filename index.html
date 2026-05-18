@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dev Detective</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>Dev Detective</h1>
+
+    <div class="search-box">
+      <input type="text" id="usernameInput" placeholder="Enter GitHub username"/>
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div id="loading" class="hidden">
+      Loading...
+    </div>
+
+    <div id="error" class="hidden">
+      User Not Found
+    </div>
+
+    <div id="profileCard" class="hidden">
+      <img id="avatar" src="" alt="avatar"/>
+
+      <h2 id="name"></h2>
+
+      <p id="bio"></p>
+
+      <p>
+        Joined:
+        <span id="joinDate"></span>
+      </p>
+
+      <a id="portfolio" href="" target="_blank">
+        Portfolio
+      </a>
+
+      <h3>Latest Repositories</h3>
+
+      <div id="repos"></div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

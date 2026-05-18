@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0d1117;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.container {
+  width: 500px;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+#profileCard {
+  background: #161b22;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+img {
+  width: 120px;
+  border-radius: 50%;
+}
+
+a {
+  color: skyblue;
+}
+#repos div {
+  margin-top: 10px;
+}
+
+#repos a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#repos a:hover {
+  text-decoration: underline;
+}
